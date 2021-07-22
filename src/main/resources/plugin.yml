@@ -1,0 +1,8 @@
+name: AnvilRunCommunity
+version: ${project.version}
+main: stupid.anvilruncommunity.AnvilRunCommunity
+api-version: 1.17
+commands:
+  anvil:
+    description: Control anvilRun parameters
+#    usage: "/<command> [interval | start | stop]"
