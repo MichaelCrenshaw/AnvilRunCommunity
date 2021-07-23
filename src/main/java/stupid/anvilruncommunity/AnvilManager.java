@@ -36,8 +36,8 @@ public class AnvilManager implements Runnable {
     }
 
     public void anvilNuke (Player player) {
-        Location locA = player.getLocation().add(20, 20, 20);
-        Location locB = player.getLocation().add(-20, 20, -20);
+        Location locA = player.getLocation().add(10, 20, 10);
+        Location locB = player.getLocation().add(-10, 20, -10);
         String blockA = Integer.toString(locA.getBlockX()) + " " + Integer.toString(locA.getBlockY()) + " " + Integer.toString(locA.getBlockZ()) + " ";
         String blockB = Integer.toString(locB.getBlockX()) + " " + Integer.toString(locB.getBlockY()) + " " + Integer.toString(locB.getBlockZ()) + " ";
         String command = "fill " + blockA + blockB + "minecraft:anvil";
