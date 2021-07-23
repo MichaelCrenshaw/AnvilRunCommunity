@@ -59,10 +59,9 @@ public class CommandAnvil implements CommandExecutor {
                                     anvilManager.anvilNuke(player);
                                     return true;
                                 }
-                                sender.sendMessage("Player \"" + playerName + "\" not found");
-                                return false;
                             }
-                            return true;
+                    sender.sendMessage("Player \"" + playerName + "\" not found");
+                    return false;
                     } else {
                         return false;
                     }
